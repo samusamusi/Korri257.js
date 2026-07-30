@@ -98,4 +98,11 @@ MapSdk.lines.push({x1: 607,y1: 511,x2: 632,y2: 479,styling:{main: {"strokeStyle"
 MapSdk.lines.push({x1: 594,y1: 511,x2: 594,y2: 511,styling:{main: {"strokeStyle": "#f0c800","lineWidth": 2},mini: {"strokeStyle": "#f0c800","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 594,y1: 511,x2: 600,y2: 479,styling:{main: {"strokeStyle": "#f0c800","lineWidth": 2},mini: {"strokeStyle": "#f0c800","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 632,y1: 479,x2: 633,y2: 432,styling:{main: {"strokeStyle": "#f0c800","lineWidth": 2},mini: {"strokeStyle": "#f0c800","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-... (8 lines left)
+MapSdk.texts.push({text:"ubbser",x:606,y:445,font:"25px Arial",miniFont: "10px Arial",color: "#f0c800",drawOnMap: false,drawOnMini: true,});
+MapSdk.texts.push({text:"Gnuppel",x:641,y:569,font:"25px Arial",miniFont: "10px Arial",color: "#f0c800",drawOnMap: false,drawOnMini: true,});
+MapSdk.lines.push({x1: 358,y1: 558,x2: 358,y2: 558,styling:{main: {"strokeStyle": "#f0c800","lineWidth": 2},mini: {"strokeStyle": "#f0c800","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 296,y1: 558,x2: 358,y2: 558,styling:{main: {"strokeStyle": "#f0c800","lineWidth": 2},mini: {"strokeStyle": "#f0c800","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 324,y1: 558,x2: 354,y2: 626,styling:{main: {"strokeStyle": "#f0c800","lineWidth": 2},mini: {"strokeStyle": "#f0c800","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 365,y1: 441,x2: 417,y2: 442,styling:{main: {"strokeStyle": "#f0c800","lineWidth": 2},mini: {"strokeStyle": "#f0c800","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.texts.push({text:"Martins Antidrop-Grenze",x:378,y:438,font:"25px Arial",miniFont: "10px Arial",color: "#f0c800",drawOnMap: false,drawOnMini: true,});
+MapSdk.mapOverlay.reload();});
