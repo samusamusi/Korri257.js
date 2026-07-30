@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         Korri-Karte OnlyFeet 257
-// @version      1.5
-// @description  draw on map
-// @author       Shinko to Kuma, suilenroc
-// @match        https://de257.die-staemme.de/game.php?*village=*screen=map*
-// @grant        none
-// ==/UserScript==
-var win = typeof unsafeWindow != 'undefined' ? unsafeWindow : window;
-win.$.ajaxSetup({ cache: true });
-
 $.getScript("https://shinko-to-kuma.com/scripts/mapSdk.js").done(function() {
 
 
